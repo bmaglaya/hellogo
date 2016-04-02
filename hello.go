@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	var str string = "Reverse me\n"
+	str := "Reverse me\n"
 	fmt.Printf(str)
 	fmt.Printf(stringutil.Reverse(str))
 }
